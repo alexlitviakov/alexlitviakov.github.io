@@ -1,0 +1,50 @@
+body {
+background: #ffffff;
+}
+
+#wrapper {
+width: 512px;
+border-width: 1px;
+border-style: solid;
+border-color: #cccccc;
+margin: auto;
+padding: 45px 0 45px 0;
+}
+
+h1 {
+font-size: 20px;
+margin-top: 0px;
+text-align: center;
+}
+
+img {
+display: block;
+margin: auto;
+}
+
+.line{
+margin: auto;
+border-bottom-width:1px;
+border-bottom-style: solid;
+width: 406px;
+}
+
+#name {
+width: 382px;
+margin: auto;
+}
+
+#want {
+width: 382px;
+margin: auto;
+}
+
+#contacts {
+width: 382px;
+margin: auto;
+}
+
+#feedback {
+width: 382px;
+margin: auto;
+}
