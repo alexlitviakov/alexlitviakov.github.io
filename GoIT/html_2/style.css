@@ -1,14 +1,18 @@
 body {
-background: #ffffff;
+background: #e9e9e9;
 }
 
 #wrapper {
 width: 512px;
 border-width: 1px;
 border-style: solid;
-border-color: #cccccc;
+border-color: white;
 margin: auto;
 padding: 45px 0 45px 0;
+background: white;
+-webkit-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.95);
+-moz-box-shadow:    0px 0px 2px 0px rgba(50, 50, 50, 0.95);
+box-shadow:         0px 0px 2px 0px rgba(50, 50, 50, 0.95);
 }
 
 h1 {
@@ -20,6 +24,7 @@ text-align: center;
 img {
 display: block;
 margin: auto;
+border-radius: 15px;
 }
 
 .line{
@@ -32,19 +37,29 @@ width: 406px;
 #name {
 width: 382px;
 margin: auto;
+padding: 0 20px 0 20px;
+border-bottom-width:1px;
+border-bottom-style: solid;
 }
 
 #want {
 width: 382px;
 margin: auto;
+padding: 0 20px 0 20px;
+border-bottom-width:1px;
+border-bottom-style: solid;
 }
 
 #contacts {
 width: 382px;
 margin: auto;
+padding: 0 20px 0 20px;
+border-bottom-width:1px;
+border-bottom-style: solid;
 }
 
 #feedback {
 width: 382px;
 margin: auto;
+padding: 0 20px 0 20px;
 }
