@@ -13,16 +13,18 @@ font-style: normal;
 
 .wrapper {
 width: 1215px;
-height: 100%;
+height: 1026px;
 margin: auto;
 font-family: 'helveticaneuecyrlight', Tahoma, sans-serif ;
 }
 
 .content {
 width: 1215px;
-height: 100%;
+height: 818px;
 background-image: url(../img/bikes.jpg);
+background-repeat:;
 padding-top: 210px;
+
 }
 
 /*TOP MENU*/
@@ -139,8 +141,6 @@ text-align: center;
 padding: 15px 0 10px 0;
 }
 
-/*MAIN FORM*/
-
 .mainform{
 width: 560px;
 height: 546px;
@@ -193,21 +193,23 @@ margin-left: -100%;
 margin-right: -100%;
 }
 
+
 input{
 margin-bottom: 18px;
 }
 
 #textform{
-width: 277px;
+width: 258px;
 height: 36px;
 background-color: #111111;
 color: #cccccc;
 font-family: ;
 font-size: 14px;
-padding: 5px 0 5px 19px;
+padding-left: 19px;
 border: none;
 border-bottom: 1px solid #484848;
 }
+
 
 .updates input {
 display: inline;
@@ -224,15 +226,17 @@ margin-left: 5px;
 
 .plaseholder {
 color: #cccccc;
+padding-left: 5px;
 }
 
 #textform:hover{
-width: 277px;
+width: 258px;
 height: 36px;
 background-color: #1b5288;
 color: #fffbfb;
+font-family: ;
 font-size: 14px;
-padding: 5px 0 5px 19px;
+padding-left: 19px;
 -webkit-box-shadow: 0px 1px 5px 0px rgba(75, 75, 75, 1);
 -moz-box-shadow:    0px 1px 5px 0px rgba(75, 75, 75, 1);
 box-shadow:         0px 1px 5px 0px rgba(75, 75, 75, 1);
@@ -273,7 +277,7 @@ cursor: pointer;
 width: 315px;
 color: #cccccc;
 margin: auto;
-margin-top: -65px;
+margin-top: -30px;
 }
 
 .privacy p {
