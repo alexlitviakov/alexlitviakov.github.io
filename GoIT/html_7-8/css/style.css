@@ -128,7 +128,7 @@ width: 500px;
 float: left;
 }
 
-.slider__header {
+.slider__title {
 font-size: 60px;
 font-family: 'League Gothic', arial;
 color: #fefefe;
@@ -136,7 +136,7 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 
-.slider__h2 {
+.slider__subtitle {
 font-family: 'League Gothic', arial;
 font-size: 32px;
 text-transform: uppercase;
@@ -146,7 +146,7 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 
 
 .slider__paragraph {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -161,7 +161,7 @@ margin-right: 160px;
 margin-top: 55px;
 }
 
-.slider__buttons_item {
+.slider__buttons__item {
 display: inline-block;
 width: 16px;
 height: 16px;
@@ -169,7 +169,7 @@ border-radius: 100px;
 background-color: rgba(0, 0, 0, .3);
 }
 
-.slider__buttons_item a:link{
+.slider__buttons__link:link{
 display: block;
 width: 12px;
 height: 12px;
@@ -179,7 +179,7 @@ border-radius: 100px;
 background-color: none;
 }
 
-.slider__buttons_item a:active{
+.slider__buttons__link:active{
 display: block;
 width: 12px;
 height: 12px;
@@ -206,7 +206,7 @@ background: linear-gradient(#745082, #33253a);
 clear: both;
 } 
 
-.about__block1 {
+.about__block-left {
 margin-top: 78px;
 margin-right: 69px;
 width: 273px;
@@ -216,7 +216,7 @@ display: inline-block;
 box-sizing: border-box;
 }
 
-.about__block2 {
+.about__block-center {
 margin-top: 78px;
 margin-right: 65px;
 margin-left: 4px;
@@ -227,7 +227,7 @@ display: inline-block;
 box-sizing: border-box;
 }
 
-.about__block3 {
+.about__block-right {
 margin-top: 78px;
 width: 273px;
 height: 193px;
@@ -287,7 +287,7 @@ background: url(../img/sprite3.png) 0 0 no-repeat;
 background-position: 0 -28px;
 }
 
-.about__block1 h2, .about__block2 h2, .about__block3 h2{
+.about__block-left h2, .about__block-center h2, .about__block-right h2{
 margin-bottom: 10px;
 color: #ffffff;
 font-family: 'League Gothic', arial, sans-serif;
@@ -365,7 +365,7 @@ color: #edbfff;
 }
 
 .slider__paragraf {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #454545;
 line-height: 150%;
@@ -380,12 +380,12 @@ margin-left: 175px;
 margin-top: 70px
 }
 
-.slider__buttons_item--small {
+.slider__buttons__item--small {
 border: 1px solid lightgrey;
 background-color: white;
 }
 
-.slider__buttons_item--small a:active{
+.slider__buttons__link--small:active{
 background-color: black;
 }
 
@@ -412,20 +412,20 @@ font-size: 30px;
 text-transform: uppercase;
 }
 
-.updates h3 {
+.updates__item-h3 {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px;
 font-weight: bold;
 }
 
-.updates p {
+.updates__item-p {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px
 }
 
-.updates__item1, .updates__item2, .updates__item3{
+.updates__item-top, .updates__item-middle, .updates__item-bottom{
 margin-bottom: 15px;
 width: 435px;
 height: 49px;
@@ -434,15 +434,15 @@ vertical-align: middle;
 line-height: 150%;
 }
 
-.updates__item1 {
+.updates__item-top {
 background: url(../img/circle1.png) left no-repeat;
 }
 
-.updates__item2 {
+.updates__item-middle {
 background: url(../img/circle2.png) left no-repeat;
 }
 
-.updates__item3 {
+.updates__item-bottom {
 background: url(../img/circle3.png) left no-repeat;
 }
 
@@ -613,7 +613,7 @@ letter-spacing: 0.13px;
 }
 
 adress p {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 12px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -723,7 +723,7 @@ background: url(../img/play.png);
 border: none;
 }
 
-.slider__header {
+.slider__title {
 margin-bottom: 5px;
 font-size: 48px;
 font-family: 'League Gothic', arial;
@@ -732,7 +732,7 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 
-.slider__h2 {
+.slider__subtitle {
 margin-bottom: 12px;
 font-family: 'League Gothic', arial;
 font-size: 24px;
@@ -744,7 +744,7 @@ white-space: nowrap;
 
 
 .slider__paragraph {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -759,7 +759,7 @@ margin-right: 158px;
 margin-top: 3px
 }
 
-.slider__buttons_item {
+.slider__buttons__item {
 display: inline-block;
 width: 16px;
 height: 16px;
@@ -767,7 +767,7 @@ border-radius: 100px;
 background-color: rgba(0, 0, 0, .3);
 }
 
-.slider__buttons_item a:link{
+.slider__buttons__link:link{
 display: block;
 width: 12px;
 height: 12px;
@@ -777,7 +777,7 @@ border-radius: 100px;
 background-color: none;
 }
 
-.slider__buttons_item a:active{
+.slider__buttons__link:active{
 display: block;
 width: 12px;
 height: 12px;
@@ -805,7 +805,7 @@ background: linear-gradient(#745082, #33253a);
 clear: both;
 } 
 
-.about__block1 {
+.about__block-left {
 margin-top: 80px;
 margin-right: 58px;
 width: 200px;
@@ -815,7 +815,7 @@ display: inline-block;
 box-sizing: border-box;
 }
 
-.about__block2 {
+.about__block-center {
 margin-top: 80px;
 margin-right: 65px;
 width: 200px;
@@ -825,7 +825,7 @@ display: inline-block;
 box-sizing: border-box;
 }
 
-.about__block3 {
+.about__block-right {
 margin-top: 80px;
 width: 200px;
 height: 193px;
@@ -891,7 +891,7 @@ background: url(../img/sprite3.png) 0 0 no-repeat;
 background-position: 0 -28px;
 }
 
-.about__block1 h2, .about__block2 h2, .about__block3 h2{
+.about__block-left h2, .about__block-center h2, .about__block-right h2{
 margin-bottom: 10px;
 color: #ffffff;
 font-family: 'League Gothic', arial, sans-serif;
@@ -990,7 +990,7 @@ display: block;
 }
 
 .slider__paragraf {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #454545;
 line-height: 150%;
@@ -1005,12 +1005,12 @@ margin-left: 135px;
 margin-top: 12px
 }
 
-.slider__buttons_item--small {
+.slider__buttons__item--small {
 border: 1px solid lightgrey;
 background-color: white;
 }
 
-.slider__buttons_item--small a:active{
+.slider__buttons__link--small:active{
 background-color: black;
 }
 
@@ -1038,20 +1038,20 @@ font-size: 30px;
 text-transform: uppercase;
 }
 
-.updates h3 {
+.updates__item-h3 {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px;
 font-weight: bold;
 }
 
-.updates p {
+.updates__item-p {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px
 }
 
-.updates__item1, .updates__item2, .updates__item3{
+.updates__item-top, .updates__item-middle, .updates__item-bottom{
 margin-bottom: 15px;
 width: 435px;
 height: 49px;
@@ -1060,15 +1060,15 @@ vertical-align: middle;
 line-height: 150%;
 }
 
-.updates__item1 {
+.updates__item-top {
 background: url(../img/circle1.png) left no-repeat;
 }
 
-.updates__item2 {
+.updates__item-middle {
 background: url(../img/circle2.png) left no-repeat;
 }
 
-.updates__item3 {
+.updates__item-bottom {
 background: url(../img/circle3.png) left no-repeat;
 }
 
@@ -1258,7 +1258,7 @@ letter-spacing: 0.13px;
 }
 
 adress p {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 12px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -1398,7 +1398,7 @@ border: none;
 display: none;
 }
 
-.slider__header {
+.slider__title {
 margin-bottom: 5px;
 font-size: 32px;
 font-family: 'League Gothic', arial;
@@ -1407,7 +1407,7 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 
-.slider__h2 {
+.slider__subtitle {
 margin-bottom: 12px;
 font-family: 'League Gothic', arial;
 font-size: 18px;
@@ -1419,7 +1419,7 @@ white-space: nowrap;
 
 
 .slider__paragraph {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -1434,7 +1434,7 @@ margin-right: 180px;
 margin-top: -33px
 }
 
-.slider__buttons_item {
+.slider__buttons__item {
 display: inline-block;
 width: 16px;
 height: 16px;
@@ -1442,7 +1442,7 @@ border-radius: 100px;
 background-color: rgba(0, 0, 0, .3);
 }
 
-.slider__buttons_item a:link{
+.slider__buttons__link:link{
 display: block;
 width: 12px;
 height: 12px;
@@ -1452,7 +1452,7 @@ border-radius: 100px;
 background-color: none;
 }
 
-.slider__buttons_item a:active{
+.slider__buttons__link:active{
 display: block;
 width: 12px;
 height: 12px;
@@ -1479,7 +1479,7 @@ background: linear-gradient(#745082, #33253a);
 clear: both;
 } 
 
-.about__block1 {
+.about__block-left {
 margin-top: 80px;
 margin-left: 32px;
 width: 420px;
@@ -1489,7 +1489,7 @@ display: block;
 box-sizing: border-box;
 }
 
-.about__block2 {
+.about__block-center {
 margin-top: 27px;
 margin-left: 33px;
 width: 420px;
@@ -1499,7 +1499,7 @@ display: block;
 box-sizing: border-box;
 }
 
-.about__block3 {
+.about__block-right {
 margin-top: 30px;
 margin-left: 33px;
 width: 420px;
@@ -1564,7 +1564,7 @@ background: url(../img/sprite3.png) 0 0 no-repeat;
 background-position: 0 -28px;
 }
 
-.about__block1 h2, .about__block2 h2, .about__block3 h2{
+.about__block-left h2, .about__block-center h2, .about__block-right h2{
 margin-bottom: 10px;
 color: #ffffff;
 font-family: 'League Gothic', arial, sans-serif;
@@ -1592,7 +1592,6 @@ text-transform: uppercase;
 color: black;
 display: none;
 }
-
 
 
 /*SMALL SLIDER BLOCK*/
@@ -1650,7 +1649,7 @@ color: #edbfff;
 }
 
 .slider__paragraf {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #454545;
 line-height: 150%;
@@ -1664,12 +1663,12 @@ margin-left: 188px;
 margin-top: 12px
 }
 
-.slider__buttons_item--small {
+.slider__buttons__item--small {
 border: 1px solid lightgrey;
 background-color: white;
 }
 
-.slider__buttons_item--small a:active{
+.slider__buttons__link--small:active{
 background-color: black;
 }
 
@@ -1697,20 +1696,20 @@ font-size: 30px;
 text-transform: uppercase;
 }
 
-.updates h3 {
+.updates__item-h3 {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px;
 font-weight: bold;
 }
 
-.updates p {
+.updates__item-p {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px
 }
 
-.updates__item1, .updates__item2, .updates__item3{
+.updates__item-top, .updates__item-middle, .updates__item-bottom{
 margin-bottom: 20px;
 width: 435px;
 height: 49px;
@@ -1719,15 +1718,15 @@ vertical-align: middle;
 line-height: 150%;
 }
 
-.updates__item1 {
+.updates__item-top {
 background: url(../img/circle1.png) left no-repeat;
 }
 
-.updates__item2 {
+.updates__item-middle {
 background: url(../img/circle2.png) left no-repeat;
 }
 
-.updates__item3 {
+.updates__item-bottom {
 background: url(../img/circle3.png) left no-repeat;
 }
 
@@ -1960,7 +1959,7 @@ letter-spacing: 0.13px;
 }
 
 adress p {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 12px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -2092,7 +2091,7 @@ border: none;
 display: none;
 }
 
-.slider__header {
+.slider__title {
 margin-bottom: 5px;
 font-size: 32px;
 font-family: 'League Gothic', arial;
@@ -2101,7 +2100,7 @@ text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 
-.slider__h2 {
+.slider__subtitle {
 margin-bottom: 12px;
 font-family: 'League Gothic', arial;
 font-size: 18px;
@@ -2113,7 +2112,7 @@ white-space: nowrap;
 
 
 .slider__paragraph {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -2128,7 +2127,7 @@ margin-right: 110px;
 margin-top: 85px
 }
 
-.slider__buttons_item {
+.slider__buttons__item {
 display: inline-block;
 width: 16px;
 height: 16px;
@@ -2136,7 +2135,7 @@ border-radius: 100px;
 background-color: rgba(0, 0, 0, .3);
 }
 
-.slider__buttons_item a:link{
+.slider__buttons__link:link{
 display: block;
 width: 12px;
 height: 12px;
@@ -2146,7 +2145,7 @@ border-radius: 100px;
 background-color: none;
 }
 
-.slider__buttons_item a:active{
+.slider__buttons__link:active{
 display: block;
 width: 12px;
 height: 12px;
@@ -2173,7 +2172,7 @@ background: linear-gradient(#745082, #33253a);
 clear: both;
 } 
 
-.about__block1 {
+.about__block-left {
 margin-top: 70px;
 margin-left: 10px;
 width: 265px;
@@ -2183,7 +2182,7 @@ display: block;
 box-sizing: border-box;
 }
 
-.about__block2 {
+.about__block-center {
 margin-top: 30px;
 margin-left: 10px;
 width: 265px;
@@ -2193,7 +2192,7 @@ display: block;
 box-sizing: border-box;
 }
 
-.about__block3 {
+.about__block-right {
 margin-top: 42px;
 margin-left: 10px;
 width: 265px;
@@ -2260,7 +2259,7 @@ background: url(../img/sprite3.png) 0 0 no-repeat;
 background-position: 0 -28px;
 }
 
-.about__block1 h2, .about__block2 h2, .about__block3 h2{
+.about__block-left h2, .about__block-center h2, .about__block-right h2{
 margin-bottom: 10px;
 color: #ffffff;
 font-family: 'League Gothic', arial, sans-serif;
@@ -2345,7 +2344,7 @@ display: block;
 }
 
 .slider__paragraf {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 16px;
 color: #454545;
 line-height: 150%;
@@ -2360,12 +2359,12 @@ margin-left: 120px;
 margin-top: 57px
 }
 
-.slider__buttons_item--small {
+.slider__buttons__item--small {
 border: 1px solid lightgrey;
 background-color: white;
 }
 
-.slider__buttons_item--small a:active{
+.slider__buttons__link--small:active{
 background-color: black;
 }
 
@@ -2394,20 +2393,20 @@ font-size: 30px;
 text-transform: uppercase;
 }
 
-.updates h3 {
+.updates__item-h3 {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px;
 font-weight: bold;
 }
 
-.updates p {
+.updates__item-p {
 color: #454545;
-font-family: 'Open Sans', arial, sans-serif;
+font-family: 'OpenSansLight', arial, sans-serif;
 font-size: 16px
 }
 
-.updates__item1, .updates__item2, .updates__item3{
+.updates__item-top, .updates__item-middle, .updates__item-bottom{
 margin-bottom: 20px;
 margin-right: 40px;
 width: 280px;
@@ -2417,15 +2416,15 @@ vertical-align: middle;
 line-height: 150%;
 }
 
-.updates__item1 {
+.updates__item-top {
 background: url(../img/circle1.png) left no-repeat;
 }
 
-.updates__item2 {
+.updates__item-middle {
 background: url(../img/circle2.png) left no-repeat;
 }
 
-.updates__item3 {
+.updates__item-bottom {
 background: url(../img/circle3.png) left no-repeat;
 }
 
@@ -2670,7 +2669,7 @@ letter-spacing: 0.13px;
 }
 
 adress p {
-font-family: 'Open Sans Light', arial;
+font-family: 'OpenSansLight', arial;
 font-size: 12px;
 color: #ecebec;
 text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
