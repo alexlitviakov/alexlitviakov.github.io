@@ -1,20 +1,13 @@
 function pow(base, exp) {
+	var result = 1;
+	for (var i = 0; i < exp; i++) {
+		result *= base;
+	}
 
-var b = base;
-
-for (var i = 1; i < exp; i++) {
-
-b *= base;
-
-}
-
-return b;
-
+	return result;
 }
 
 var base = prompt('Введите базовое число');
+var exp = prompt('Введите базовое число');
 
-var exp = prompt('Введите степень, в которую возводить базовое число');
-
-console.log(pow (base,exp));
-
+console.log( pow(base, exp) );
