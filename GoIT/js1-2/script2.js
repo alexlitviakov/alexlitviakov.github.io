@@ -2,6 +2,11 @@ var names = [];
 
 for (var i = 0; i < 5; i++) {
 names[i] = prompt('введите ваше имя', '');
+
+if (names[i] === '') {
+alert('Вы не ввели имя! Заполните строку!');
+names[i] = prompt('введите ваше имя', '');
+}
 }
 
 var majorName = prompt('введите главное имя', '');
