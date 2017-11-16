@@ -17,4 +17,4 @@ return base * pow(base, exp - 1);
 
 //console.log(pow(2, 3));
 
-console.log( toPower(base, exp) );
+console.log(pow(base, exp) );
