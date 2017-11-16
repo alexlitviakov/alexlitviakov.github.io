@@ -1,13 +1,20 @@
-function pow(base, exp) {
-	var result = 1;
-	for (var i = 0; i < exp; i++) {
-		result *= base;
-	}
+var base = prompt('Введите базовое число');
+var exp = prompt('Введите экспоненту');
 
-	return result;
+function pow(base, exp) {
+
+if (exp == 0) {
+
+return 1;
+} else if(exp < 0) {
+
+return 1 / base * pow(base, exp + 1);
+
+}
+return base * pow(base, exp - 1);
+
 }
 
-var base = prompt('Введите базовое число');
-var exp = prompt('Введите базовое число');
+//console.log(pow(2, 3));
 
-console.log( pow(base, exp) );
+console.log( toPower(base, exp) );
